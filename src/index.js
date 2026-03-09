@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://friend-chat-website.vercel.app",
+    origin: "https://friend-chat-website.vercel.app/login",
     credentials: true,
   })
 );
